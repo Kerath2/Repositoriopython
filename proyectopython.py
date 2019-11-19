@@ -13,7 +13,7 @@ wn.tracer(0)
 cabeza = turtle.Turtle()
 cabeza.speed(0)
 cabeza.shape("square")
-cabeza.color("white")
+cabeza.color("Yellow")
 cabeza.penup()
 cabeza.goto(0,0)
 cabeza.direction = "stop"
@@ -30,7 +30,7 @@ def izquierda():
 	cabeza.direction = "left"
 
 def derecha():
-	cabeza.direction = "rigth"		
+	cabeza.direction = "right"		
 
 
 
@@ -49,7 +49,7 @@ def mov():
 		x = cabeza.xcor()
 		cabeza.setx(x - 20)	
 
-	if cabeza.direction == "rigth":
+	if cabeza.direction == "right":
 		x = cabeza.xcor()
 		cabeza.setx(x + 20)	
 
