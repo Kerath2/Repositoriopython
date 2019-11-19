@@ -13,7 +13,7 @@ wn.tracer(0)
 cabeza = turtle.Turtle()
 cabeza.speed(0)
 cabeza.shape("square")
-cabeza.color("Yellow")
+cabeza.color("Green")
 cabeza.penup()
 cabeza.goto(0,0)
 cabeza.direction = "stop"
